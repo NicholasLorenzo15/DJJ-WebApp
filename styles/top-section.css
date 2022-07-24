@@ -1,0 +1,120 @@
+.top-section {
+    /* background-color: beige; */
+    background-color: rgb(230, 230, 230);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 5px;
+    box-shadow: 10px -2px 10px rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+.first-top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.second-top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.youth-center-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.label{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.youth-center-label{
+    padding-right: 10px;
+    
+}
+
+.youth-center-input{
+    width: 200px;
+    
+}
+
+.ydt{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.time{
+    margin-right: 15px;
+}
+#date-of-incident{
+    font-size: 16px;
+}
+
+#time-of-incident{
+    width: 75px;
+    font-size: 16px;
+}
+
+.radio-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+
+.radio-btn1{
+    padding-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.radio-btn2 {
+    padding-top: 10px;
+    margin-left: -100px;
+    
+}
+
+.radio{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -20px;
+  
+   
+}
+
+.radio2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 10px;
+
+}
+

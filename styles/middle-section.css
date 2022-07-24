@@ -1,0 +1,52 @@
+.middle-section-container{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+
+}
+
+.youth-staff{
+    font-weight: 700;
+}
+
+
+.name-id{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 175px;
+    margin-right: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 1 1;
+}
+
+.lines-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 46px;
+    padding-bottom: 20px;    
+}
+
+.lines{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lines-text1{
+    width: 300px;
+}
+
+.lines-text3{
+    width: 100px;
+    margin-left: -15px;
+}
+
+
+
+
+
